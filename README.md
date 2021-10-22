@@ -10,6 +10,7 @@ A very simple message board that allows CRUD through the superadmin account
 ORM = Object Relational Mapper
 Maps objects directly do database tables and allows easier database connection and data manipulation by the server(in other words: no need to directly write SQL queries).
 Similar to typeORM and sequelize I used in nodejs so was easy to grasp.
+Migrations were also handled quite easily by django. Migrations are ways to sync objects defined in models with databases so that everything is well synced. You can specify all apps or certain apps to sync. It is usually best practice to designate certain apps.
 
 ## Tests
 Testing to see whether creating a post actually creates a post
